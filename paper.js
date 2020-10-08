@@ -8,7 +8,7 @@ class Paper {
           density: 1.2
       }
       this.diameter = diameter
-      this.body = Bodies.circle(x,y,diameter,options)
+      this.body = Bodies.circle(x,y,diameter/2,options)
       World.add(world, this.body);
  
   }
