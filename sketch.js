@@ -21,7 +21,7 @@ function setup() {
 	ground = new Ground(400,height,1000,21)
 rect1 = new Dustbin(600,630,20,100)
 rect2 = new Dustbin(750,630,20,100)
-rect3 = new Dustbin(675,680,173,20)
+rect3 = new Dustbin(675,700,173,20)
 	paper = new Paper(150,500,50);
 	//Create the Bodies Here.
 	Engine.run(engine);
